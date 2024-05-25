@@ -15,8 +15,9 @@ services:
       DATABASE_PORT: 3306
     command: >
       sh -c "/wait-for-it.sh db 3306 -- &&
+             python myproject/manage.py makemigrations myapp &&
              python myproject/manage.py migrate &&
-             python myproject/manage.py loaddata initial_data.json &&
+             python myproject/manage.py loaddata myproject/myapp/initial_data.json &&
              python myproject/manage.py runserver 0.0.0.0:8000"
   db:
     image: mysql:5.7
