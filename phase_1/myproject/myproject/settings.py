@@ -17,6 +17,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'myapp',
+    'storages',  # Для поддержки Azure Storage
 ]
 
 MIDDLEWARE = [
@@ -55,8 +56,8 @@ DATABASES = {
         'NAME': 'airline',
         'USER': 'root',
         'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '3307',
+        'HOST': 'db',
+        'PORT': '3306',
     }
 }
 
@@ -86,3 +87,14 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Azure Blob Storage configuration
+DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
+AZURE_ACCOUNT_NAME = 'my_account_name'
+AZURE_ACCOUNT_KEY = 'my_account_key'
+AZURE_CONTAINER = 'my_container_name'
+
+# Placeholder for Azure Cosmos DB configuration (for future use)
+# COSMOS_DB_ENDPOINT = 'my_cosmos_db_endpoint'
+# COSMOS_DB_KEY = 'my_cosmos_db_key'
+# COSMOS_DB_DATABASE_NAME = 'my_database_name'
