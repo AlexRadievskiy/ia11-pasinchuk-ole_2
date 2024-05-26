@@ -1,34 +1,22 @@
 version: '3.8'
 
 services:
-  db:
-    image: mongo:latest
-    environment:
-      MONGO_INITDB_DATABASE: airline
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongo_data:/data/db
-
   web:
     build: .
-    volumes:
-      - .:/app
     ports:
-      - "8001:8000"
-    environment:
-      DATABASE_NAME: airline
-      DATABASE_USER: root
-      DATABASE_PASSWORD: password
-      DATABASE_HOST: db
-      DATABASE_PORT: 27017
-    command: >
-      sh -c "python myproject/manage.py makemigrations myapp &&
-             python myproject/manage.py migrate &&
-             python myproject/manage.py loaddata myapp/initial_data.json &&
-             python myproject/manage.py runserver 0.0.0.0:8000"
+      - "8000:8000"
     depends_on:
       - db
+    environment:
+      - DATABASE_HOST=db
+      - DATABASE_PORT=27017
+    command: ["./wait-for-it.sh", "db:27017", "--", "python", "manage.py", "runserver", "0.0.0.0:8000"]
+
+  db:
+    image: mongo
+    ports:
+      - "27017:27017"
 
 volumes:
   mongo_data:
+    driver: local
