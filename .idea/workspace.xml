@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63df0c7e-fe1f-4ff6-989c-a7859af4596d" name="Changes" comment="feature/phase1 done (I hope)">
-      <change afterPath="$PROJECT_DIR$/Phase 2/requirements.txt" afterDir="false" />
+    <list default="true" id="63df0c7e-fe1f-4ff6-989c-a7859af4596d" name="Changes" comment="feature/phase2 first">
+      <change afterPath="$PROJECT_DIR$/phase_2/Dockerfile.mongo-client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase_2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/phase_2/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase_2/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/phase_2/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase_2/wait-for-it.sh" beforeDir="false" afterPath="$PROJECT_DIR$/phase_2/wait-for-it.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/phase1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/radie/PycharmProjects/ia11-pasinchuk-ole/Phase 2/myproject",
+    "last_opened_file_path": "C:/Users/radie/PycharmProjects/ia11-pasinchuk-ole",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,33 +62,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\radie\PycharmProjects\ia11-pasinchuk-ole" />
       <recent name="C:\Users\radie\PycharmProjects\ia11-pasinchuk-ole\Phase 2\myproject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\radie\PycharmProjects\ia11-pasinchuk-ole\phase_1\myproject\myapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.phase_1: Compose Deployment">
-    <configuration name="Test: myapp.tests.ParentModelTests" type="DjangoTestsConfigurationType" temporary="true">
-      <module name="ia11-pasinchuk-ole" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="myapp.tests.ParentModelTests" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Docker.phase_2: Compose Deployment">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ia11-pasinchuk-ole" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,13 +125,21 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="phase_2: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="phase_2/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.phase_2: Compose Deployment" />
         <item itemvalue="Docker.phase_1: Compose Deployment" />
         <item itemvalue="Docker.phase_1/Dockerfile" />
         <item itemvalue="Docker.phase_1/docker_compose.yml: Compose Deployment" />
         <item itemvalue="Python.manage" />
-        <item itemvalue="Django tests.Test: myapp.tests.ParentModelTests" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +154,7 @@
       <workItem from="1714403505725" duration="182000" />
       <workItem from="1716117031852" duration="627000" />
       <workItem from="1716400235234" duration="39000" />
-      <workItem from="1716670926487" duration="6834000" />
+      <workItem from="1716670926487" duration="8116000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting 404 language">
       <option name="closed" value="true" />
@@ -196,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716680980767</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feature/phase2 first">
+      <option name="closed" value="true" />
+      <created>1716682598259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716682598259</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +218,8 @@
     <MESSAGE value="First" />
     <MESSAGE value="Second" />
     <MESSAGE value="feature/phase1 done (I hope)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature/phase1 done (I hope)" />
+    <MESSAGE value="feature/phase2 first" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature/phase2 first" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ia11_pasinchuk_ole$manage.coverage" NAME="manage Coverage Results" MODIFIED="1714142146996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

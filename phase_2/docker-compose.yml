@@ -28,5 +28,15 @@ services:
     volumes:
       - mongo_data:/data/db
 
+  mongo-client:
+    image: mongo
+    depends_on:
+      - db
+    entrypoint: >
+      sh -c "sleep 10 &&
+             mongo --host db --port 27017 --eval 'db.myapp_passenger.find().pretty()'"
+    networks:
+      - default
+
 volumes:
   mongo_data:
