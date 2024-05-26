@@ -53,7 +53,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
-# Database
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
@@ -62,9 +61,14 @@ DATABASES = {
         'CLIENT': {
             'host': 'db',
             'port': 27017,
+            'username': 'root',
+            'password': 'password',
+            'authSource': 'admin',
+            'authMechanism': 'SCRAM-SHA-1',
         }
     }
 }
+
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [

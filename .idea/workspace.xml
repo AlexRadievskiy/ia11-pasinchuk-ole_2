@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63df0c7e-fe1f-4ff6-989c-a7859af4596d" name="Changes" comment="feature/phase2 3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phase_2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/phase_2/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phase_2/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/phase_2/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phase_2/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/phase_2/myproject/myproject/settings.py" afterDir="false" />
@@ -153,7 +152,7 @@
       <workItem from="1714403505725" duration="182000" />
       <workItem from="1716117031852" duration="627000" />
       <workItem from="1716400235234" duration="39000" />
-      <workItem from="1716670926487" duration="9769000" />
+      <workItem from="1716670926487" duration="10094000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting 404 language">
       <option name="closed" value="true" />
@@ -211,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716684832001</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feature/phase2 3">
+      <option name="closed" value="true" />
+      <created>1716685475992</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716685475992</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
