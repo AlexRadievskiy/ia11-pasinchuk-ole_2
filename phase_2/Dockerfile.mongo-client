@@ -1,6 +1,0 @@
-FROM mongo:latest
-
-RUN apt-get update && \
-    apt-get install -y netcat-openbsd mongo-tools
-
-CMD ["sh", "-c", "mongo --host db --port 27017 --eval 'db.myapp_passenger.find().pretty()'"]
