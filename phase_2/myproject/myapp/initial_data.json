@@ -1,0 +1,12 @@
+[
+  {
+    "model": "myapp.passenger",
+    "pk": 1,
+    "fields": {
+      "name": "John Doe",
+      "age": 30,
+      "email": "johndoe@example.com",
+      "join_date": "2024-05-25T00:00:00Z"
+    }
+  }
+]

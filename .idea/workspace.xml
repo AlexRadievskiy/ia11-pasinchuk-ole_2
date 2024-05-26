@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63df0c7e-fe1f-4ff6-989c-a7859af4596d" name="Changes" comment="Second">
+    <list default="true" id="63df0c7e-fe1f-4ff6-989c-a7859af4596d" name="Changes" comment="feature/phase1 done (I hope)">
+      <change afterPath="$PROJECT_DIR$/Phase 2/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phase_1/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/phase_1/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/radie/PycharmProjects/ia11-pasinchuk-ole",
+    "last_opened_file_path": "C:/Users/radie/PycharmProjects/ia11-pasinchuk-ole/Phase 2/myproject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +58,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\radie\PycharmProjects\ia11-pasinchuk-ole\Phase 2\myproject" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\radie\PycharmProjects\ia11-pasinchuk-ole\phase_1\myproject\myapp" />
     </key>
@@ -159,7 +162,7 @@
       <workItem from="1714403505725" duration="182000" />
       <workItem from="1716117031852" duration="627000" />
       <workItem from="1716400235234" duration="39000" />
-      <workItem from="1716670926487" duration="5522000" />
+      <workItem from="1716670926487" duration="6834000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting 404 language">
       <option name="closed" value="true" />
@@ -185,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716680477677</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feature/phase1 done (I hope)">
+      <option name="closed" value="true" />
+      <created>1716680980767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716680980767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +217,8 @@
     <MESSAGE value="Deleting 404 language" />
     <MESSAGE value="First" />
     <MESSAGE value="Second" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second" />
+    <MESSAGE value="feature/phase1 done (I hope)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature/phase1 done (I hope)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ia11_pasinchuk_ole$manage.coverage" NAME="manage Coverage Results" MODIFIED="1714142146996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
