@@ -1,7 +1,7 @@
 from django.urls import reverse
 from rest_framework import status
 from rest_framework.test import APITestCase
-from myapp.models import Passenger
+from phase_1.myproject.myapp.models import Passenger
 
 class PassengerAPITests(APITestCase):
 

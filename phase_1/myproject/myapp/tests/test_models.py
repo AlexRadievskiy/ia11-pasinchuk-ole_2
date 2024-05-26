@@ -1,5 +1,5 @@
 from django.test import TestCase
-from myapp.models import Passenger
+from phase_1.myproject.myapp.models import Passenger
 from django.core.exceptions import ValidationError
 
 class PassengerModelTests(TestCase):

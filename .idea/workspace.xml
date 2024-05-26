@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63df0c7e-fe1f-4ff6-989c-a7859af4596d" name="Changes" comment="feature/phase2 3">
-      <change beforePath="$PROJECT_DIR$/phase_2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/phase_2/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phase_2/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/phase_2/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phase_2/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/phase_2/myproject/myproject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phase_1/myproject/myapp/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase_1/myproject/myapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/phase_1/myproject/myapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase_1/myproject/myapp/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/phase_1/myproject/myapp/tests/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase_1/myproject/myapp/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/phase_1/myproject/myapp/tests/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phase_1/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/phase_1/myproject/myproject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +67,11 @@
       <recent name="C:\Users\radie\PycharmProjects\ia11-pasinchuk-ole\Phase 2\myproject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\radie\PycharmProjects\ia11-pasinchuk-ole\phase_1\myproject\myapp\tests" />
       <recent name="C:\Users\radie\PycharmProjects\ia11-pasinchuk-ole\phase_1\myproject\myapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.phase_2: Compose Deployment">
+  <component name="RunManager" selected="Docker.phase_1: Compose Deployment">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ia11-pasinchuk-ole" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,8 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.phase_2: Compose Deployment" />
         <item itemvalue="Docker.phase_1: Compose Deployment" />
+        <item itemvalue="Docker.phase_2: Compose Deployment" />
         <item itemvalue="Docker.phase_1/Dockerfile" />
         <item itemvalue="Docker.phase_1/docker_compose.yml: Compose Deployment" />
         <item itemvalue="Python.manage" />
@@ -152,7 +156,7 @@
       <workItem from="1714403505725" duration="182000" />
       <workItem from="1716117031852" duration="627000" />
       <workItem from="1716400235234" duration="39000" />
-      <workItem from="1716670926487" duration="10094000" />
+      <workItem from="1716670926487" duration="10925000" />
     </task>
     <task id="LOCAL-00001" summary="Deleting 404 language">
       <option name="closed" value="true" />
@@ -218,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716685475992</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feature/phase2 3">
+      <option name="closed" value="true" />
+      <created>1716685979837</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716685979837</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
