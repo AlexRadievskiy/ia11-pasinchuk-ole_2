@@ -1,6 +1,6 @@
 FROM mongo:latest
 
-COPY wait-for-it.sh /wait-for-it.sh
-RUN chmod +x /wait-for-it.sh
+RUN apt-get update && \
+    apt-get install -y netcat-openbsd mongo-tools
 
-CMD ["sh", "-c", "/wait-for-it.sh db:27017 -- mongo --host db --port 27017 --eval 'db.myapp_passenger.find().pretty()'"]
+CMD ["sh", "-c", "mongo --host db --port 27017 --eval 'db.myapp_passenger.find().pretty()'"]
